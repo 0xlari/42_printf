@@ -1,9 +1,22 @@
-# include "ft_printf.h"
-int     ft_putchar_pf(int c)
-{
-    char    s;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar_pf.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: labarros <0xlarissa.bf@gmail.com>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/12/09 15:31:34 by labarros          #+#    #+#             */
+/*   Updated: 2025/12/09 20:26:44 by labarros         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    s = (char)c;
+#include "ft_printf.h"
+
+int	ft_putchar_pf(int c)
+{
+	char	s;
+
+	s = (char)c;
 	write (1, &s, 1);
-    return (1);
+	return (1);
 }
