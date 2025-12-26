@@ -42,10 +42,10 @@ A lógica do projeto foi estruturada em torno do conceito de **Funções Variád
 ### Compilação
 O projeto deve ser compilado através do `Makefile` incluso, que gerará a biblioteca estática `libftprintf.a`.
 
-# Para compilar a biblioteca
+## Para compilar a biblioteca
 make
 
-# Execução
+### Execução
 Para testar ou utilizar a função em seu próprio projeto:
 
 Inclua o header no seu arquivo: #include "ft_printf.h"
@@ -56,7 +56,7 @@ bash
 cc seu_codigo.c libftprintf.a -o meu_programa
 ./meu_programa
 
-# Resources
+### Resources
 Referências Clássicas
 Man printf(3): O manual oficial do Linux foi a base para entender o comportamento de retorno e tratamento de erros.
 
